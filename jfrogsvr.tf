@@ -1,5 +1,5 @@
 
-resource "aws_instance" "sonarqube" {
+resource "aws_instance" "jfrog" {
   #count         = "2"
   ami           = data.aws_ami.amzlinux.id
   instance_type = var.instance_type
